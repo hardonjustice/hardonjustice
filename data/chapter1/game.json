@@ -1,0 +1,43 @@
+{
+  "start": "panel1",
+  "music": "sounds/music_test.mp3",
+  "panels": [
+    {
+      "id": "panel1",
+      "image": "images/HJ_01_panel1WT.png",
+      "left": ["Do Same", "choice", 0.25, "#ffca49"],
+      "right": ["Do Same", "choice", 0.25, "#ffca49"]
+    },
+    {
+      "id": "choice",
+      "image": "images/HJ_01_panel2.png",
+      "sound": "sounds/sound_test.wav",
+      "left": ["Do Left", "panel3"],
+      "right": ["Do Right", "panel4"]
+    },
+    {
+      "id": "panel3",
+      "image": "images/HJ_01_panel3WT.png",
+      "left": ["Do Left", "panel4"],
+      "right": ["Do Right", "panel5"]
+    },
+    {
+      "id": "panel4",
+      "image": "images/HJ_01_panel4WT.png",
+      "left": ["Do Same", "panel6"],
+      "right": ["Do Same", "panel6"]
+    },
+    {
+      "id": "panel5",
+      "image": "images/HJ_01_panel5.png",
+      "left": ["EXIT", "#exit"],
+      "right": ["RESTART", "#restart"]
+    },
+    {
+      "id": "panel6",
+      "image": "images/HJ_01_panel6.png",
+      "left": ["EXIT", "#exit"],
+      "right": ["RESTART", "#restart"]
+    }
+  ]
+}
