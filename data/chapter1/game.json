@@ -3,38 +3,38 @@
   "music": "sounds/music_test.mp3",
   "panels": [
     {
-      "id": "1",
+      "id": "id1",
       "image": "images/Slide1.JPG",
-      "left": ["ACCELERATE", "2"],
-      "right": ["ACCELERATE", "2"]
+      "left": ["ACCELERATE", "id2"],
+      "right": ["ACCELERATE", "id2"]
     },
     {
-      "id": "2",
+      "id": "id2",
       "image": "images/Slide2.JPG",
       "sound": "sounds/sound_test.wav",
-      "left": ["RADIO", "3"],
-      "right": ["STEREO", "3"]
+      "left": ["RADIO", "id3"],
+      "right": ["STEREO", "id3"]
     },
     {
-      "id": "3",
+      "id": "id3",
       "image": "images/Slide3.JPG",
-      "left": ["PARK", "4"],
-      "right": ["DRIFT", "4"]
+      "left": ["PARK", "id4"],
+      "right": ["DRIFT", "id4"]
     },
     {
-      "id": "4",
+      "id": "id4",
       "image": "images/Slide4.JPG",
-      "left": ["GET OUT", "5"],
-      "right": ["GET OUT", "5"]
+      "left": ["GET OUT", "id5"],
+      "right": ["GET OUT", "id5"]
     },
     {
-      "id": "5",
+      "id": "id5",
       "image": "images/Slide5.JPG",
-      "left": ["JIMMY'S", "6"],
-      "right": ["JIMMYS", "6"]
+      "left": ["JIMMY'S", "id6"],
+      "right": ["JIMMYS", "id6"]
     },
     {
-      "id": "6",
+      "id": "id6",
       "image": "images/Slide6.JPG",
       "left": ["EXIT", "#exit"],
       "right": ["RESTART", "#restart"]
