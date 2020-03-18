@@ -3,39 +3,39 @@
   "music": "sounds/music_test.mp3",
   "panels": [
     {
-      "id": "panel1",
-      "image": "images/HJ_01_panel1WT.png",
-      "left": ["Do Same", "choice", 0.25, "#ffca49"],
-      "right": ["Do Same", "choice", 0.25, "#ffca49"]
+      "id": "1",
+      "image": "images/Slide1.JPG",
+      "left": ["ACCELERATE", "2"],
+      "right": ["ACCELERATE", "2"]
     },
     {
-      "id": "choice",
-      "image": "images/HJ_01_panel2.png",
+      "id": "2",
+      "image": "images/Slide2.JPG",
       "sound": "sounds/sound_test.wav",
-      "left": ["Do Left", "panel3"],
-      "right": ["Do Right", "panel4"]
+      "left": ["RADIO", "3"],
+      "right": ["STEREO", "3"]
     },
     {
-      "id": "panel3",
-      "image": "images/HJ_01_panel3WT.png",
-      "left": ["Do Left", "panel4"],
-      "right": ["Do Right", "panel5"]
+      "id": "3",
+      "image": "images/Slide3.JPG",
+      "left": ["PARK", "4"],
+      "right": ["DRIFT", "4"]
     },
     {
-      "id": "panel4",
-      "image": "images/HJ_01_panel4WT.png",
-      "left": ["Do Same", "panel6"],
-      "right": ["Do Same", "panel6"]
+      "id": "4",
+      "image": "images/Slide4.JPG",
+      "left": ["GET OUT", "5"],
+      "right": ["GET OUT", "5"]
     },
     {
-      "id": "panel5",
-      "image": "images/HJ_01_panel5.png",
-      "left": ["EXIT", "#exit"],
-      "right": ["RESTART", "#restart"]
+      "id": "5",
+      "image": "images/Slide5.JPG",
+      "left": ["JIMMY'S", "6"],
+      "right": ["JIMMYS", "6"]
     },
     {
-      "id": "panel6",
-      "image": "images/HJ_01_panel6.png",
+      "id": "6",
+      "image": "images/Slide6.JPG",
       "left": ["EXIT", "#exit"],
       "right": ["RESTART", "#restart"]
     }
