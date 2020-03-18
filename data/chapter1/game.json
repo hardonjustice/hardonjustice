@@ -33,7 +33,8 @@
       "left": ["JIMMY'S", "6"],
       "right": ["JIMMY'S", "6"]
     },
-    {
+        
+		{
       "id": "6",
       "image": "images/Slide6.JPG",
       "left": ["EXIT", "#exit"],
