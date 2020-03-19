@@ -53,24 +53,6 @@
 	    {
       "id": "17",
       "image": "images/Slide17.JPG",
-      "left": ["JIMMY'S", "18"],
-      "right": ["JIMMY'S", "18"]
-    },
-	    {
-      "id": "18",
-      "image": "images/Slide19.JPG",
-      "left": ["JIMMY'S", "19"],
-      "right": ["JIMMY'S", "19"]
-    },
-	    {
-      "id": "19",
-      "image": "images/Slide19.JPG",
-      "left": ["JIMMY'S", "20"],
-      "right": ["JIMMY'S", "20"]
-    },
-	    {
-      "id": "20",
-      "image": "images/Slide20.JPG",
       "left": ["JIMMY'S", "21"],
       "right": ["JIMMY'S", "21"]
     },
