@@ -63,9 +63,69 @@
       "left": ["JIMMY'S", "11"],
       "right": ["JIMMY'S", "11"]
     },
-		{
+	    {
       "id": "11",
       "image": "images/Slide11.JPG",
+      "left": ["JIMMY'S", "12"],
+      "right": ["JIMMY'S", "12"]
+    },
+	    {
+      "id": "12",
+      "image": "images/Slide12.JPG",
+      "left": ["JIMMY'S", "13"],
+      "right": ["JIMMY'S", "13"]
+    },
+	    {
+      "id": "13",
+      "image": "images/Slide13.JPG",
+      "left": ["JIMMY'S", "14"],
+      "right": ["JIMMY'S", "14"]
+    },
+	    {
+      "id": "14",
+      "image": "images/Slide14.JPG",
+      "left": ["JIMMY'S", "15"],
+      "right": ["JIMMY'S", "15"]
+    },
+	    {
+      "id": "15",
+      "image": "images/Slide15.JPG",
+      "left": ["JIMMY'S", "16"],
+      "right": ["JIMMY'S", "16"]
+    },
+	    {
+      "id": "16",
+      "image": "images/Slide16.JPG",
+      "left": ["JIMMY'S", "17"],
+      "right": ["JIMMY'S", "17"]
+    },
+	    {
+      "id": "17",
+      "image": "images/Slide17.JPG",
+      "left": ["JIMMY'S", "18"],
+      "right": ["JIMMY'S", "18"]
+    },
+	    {
+      "id": "18",
+      "image": "images/Slide19.JPG",
+      "left": ["JIMMY'S", "19"],
+      "right": ["JIMMY'S", "19"]
+    },
+	    {
+      "id": "19",
+      "image": "images/Slide19.JPG",
+      "left": ["JIMMY'S", "20"],
+      "right": ["JIMMY'S", "20"]
+    },
+	    {
+      "id": "20",
+      "image": "images/Slide20.JPG",
+      "left": ["JIMMY'S", "21"],
+      "right": ["JIMMY'S", "21"]
+    },
+		{
+      "id": "21",
+      "image": "images/Slide21.JPG",
       "left": ["EXIT", "#exit"],
       "right": ["RESTART", "#restart"]
     }
