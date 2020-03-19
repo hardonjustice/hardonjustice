@@ -5,57 +5,8 @@
     {
       "id": "1",
       "image": "images/Slide1.JPG",
-      "left": ["GAS", "2"],
-      "right": ["GAS", "2"]
-    },
-    {
-      "id": "2",
-      "image": "images/Slide2.JPG",
-      "sound": "sounds/sound_test.wav",
-      "left": ["RADIO", "3"],
-      "right": ["STEREO", "3"]
-    },
-    {
-      "id": "3",
-      "image": "images/Slide3.JPG",
-      "left": ["PARK", "4"],
-      "right": ["DRIFT", "4"]
-    },
-    {
-      "id": "4",
-      "image": "images/Slide4.JPG",
-      "left": ["GET OUT", "5"],
-      "right": ["GET OUT", "5"]
-    },
-    {
-      "id": "5",
-      "image": "images/Slide5.JPG",
-      "left": ["JIMMY'S", "6"],
-      "right": ["JIMMY'S", "6"]
-    },
-	{
-      "id": "6",
-      "image": "images/Slide6.JPG",
-      "left": ["JIMMY'S", "7"],
-      "right": ["JIMMY'S", "7"]
-    },
-	{
-      "id": "7",
-      "image": "images/Slide7.JPG",
-      "left": ["JIMMY'S", "8"],
-      "right": ["JIMMY'S", "8"]
-    },
-	{
-      "id": "8",
-      "image": "images/Slide8.JPG",
-      "left": ["JIMMY'S", "9"],
-      "right": ["JIMMY'S", "9"]
-    },
-	    {
-      "id": "9",
-      "image": "images/Slide9.JPG",
-      "left": ["JIMMY'S", "10"],
-      "right": ["JIMMY'S", "10"]
+      "left": ["GAS", "10"],
+      "right": ["GAS", "10"]
     },
 	    {
       "id": "10",
