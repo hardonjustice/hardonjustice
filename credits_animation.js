@@ -24,7 +24,7 @@ function add_credits(data_path, config){
         numberOfLines += t.name.length + 2;
       }
       new_credit.style.top = config["center_height"] + numberOfLines * config["font_perc"] * config["res"] + "px";
-      let id = setInterval(moveUp, 10);
+      let id = setInterval(moveUp, 20);
       function moveUp(){
         let current = parseInt(new_credit.style.top.split("px")[0]);
         new_credit.style.top = (current - 1) + "px";

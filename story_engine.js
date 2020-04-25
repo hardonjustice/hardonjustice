@@ -96,8 +96,10 @@ class Story{
   }
 
   stop_music(){
-    this.music.pause();
-    this.music.currentTime = 0;
+    if(this.music != null){
+      this.music.pause();
+      this.music.currentTime = 0;
+    }
   }
 
   get_current_panel(){

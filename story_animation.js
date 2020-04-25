@@ -30,10 +30,10 @@ function add_panel(data_path, ch_path, config, story){
   new_panel.children[2].src = story.get_shade_right();
   new_panel.children[3].style.fontSize = Math.floor(story.get_current_panel().get_left_size() * config['res']) + "px";
   new_panel.children[3].style.color = story.get_current_panel().get_left_color();
-  new_panel.children[3].children[0].innerText = story.get_current_panel().get_left_text();
+  new_panel.children[3].children[0].innerHTML = story.get_current_panel().get_left_text();
   new_panel.children[4].style.fontSize = Math.floor(story.get_current_panel().get_right_size() * config['res']) + "px";
   new_panel.children[4].style.color = story.get_current_panel().get_right_color();
-  new_panel.children[4].children[0].innerText = story.get_current_panel().get_right_text();
+  new_panel.children[4].children[0].innerHTML = story.get_current_panel().get_right_text();
   for(let c of new_panel.children){
     c.style.width = new_panel.style.width;
     c.style.height = new_panel.style.height;
@@ -54,8 +54,9 @@ function add_panel(data_path, ch_path, config, story){
   new_panel.style.zIndex = "" + 10;
   new_panel.addEventListener("transitionend", function(){
     let current = Math.floor(new_panel.style.bottom.split("px")[0]);
-    if(current > config['center_height']){
-      document.querySelector("#story #center").removeChild(new_panel);
+    let center = document.querySelector("#story #center");
+    if(current > config['center_height'] && center.children.length >= 3){
+      center.removeChild(new_panel);
     }
   });
   let show_handler = function(e){
